@@ -89,6 +89,12 @@
 			<artifactId>bootsfaces</artifactId>
 			<version>0.8.0</version>
 		</dependency>
+		<!-- CDI-API 1.2 -->
+		<dependency>
+			<groupId>javax.enterprise</groupId>
+			<artifactId>cdi-api</artifactId>
+			<version>1.2</version>
+		</dependency>
 	</dependencies>
 	<profiles>
 		<profile>
