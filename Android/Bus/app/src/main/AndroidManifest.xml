@@ -7,17 +7,48 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:name=".App">
+        <!-- Splash Activity-->
         <activity
+<<<<<<< HEAD
             android:name=".BusActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
+=======
+            android:name=".SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/SplashTheme">
+>>>>>>> yohel
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <!-- Bus Activity -->
+        <activity
+            android:name=".BusActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+
     </application>
 
 </manifest>
