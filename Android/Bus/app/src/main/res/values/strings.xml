@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">Bus</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Strings para Login -->
+    <string name="lbl_company">Empresa</string>
+    <string name="lbl_code">Código</string>
+    <string name="btn_login">Ingresar</string>
+
+    <!-- Strings para Add Bus -->
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="hint_bus_name">Bus Name</string>
+    <string name="hint_plate_number">Plate Number</string>
+    <string name="hint_driver_name">Driver Name</string>
+    <string name="company_name">Company</string>
+    <string name="route_name">Route</string>
+    <string name="bus_commit_button">Add Bus</string>
 </resources>
