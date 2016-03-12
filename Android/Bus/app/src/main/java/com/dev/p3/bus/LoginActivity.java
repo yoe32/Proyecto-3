@@ -40,7 +40,7 @@ public class LoginActivity extends AppCompatActivity
             public void onClick(View v)
             {
                 // Action de Botón
-                Intent intent = new Intent(LoginActivity.this,RouteActivity.class);
+                Intent intent = new Intent(LoginActivity.this,BusActivity.class);
                 Bundle bundle = new Bundle();
                 startActivity(intent);
             }
